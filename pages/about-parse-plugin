@@ -1,0 +1,73 @@
+{
+  "title": "About Parse Plugin",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "12e3df786e6de733",
+      "text": "The Parse plugin creates and supervises long running batch jobs. This work in progress explores how this interaction might progress. A websocket connection is established to the server but no parse job is yet started."
+    },
+    {
+      "type": "parse",
+      "id": "7715f521b76d9a9b",
+      "text": "grammar: 35 productions\ndataset: 13.56 Gb\n"
+    },
+    {
+      "type": "reference",
+      "id": "6f72d9758c3aaba4",
+      "site": "lab.fed.wiki.org",
+      "slug": "exploratory-parsing",
+      "title": "Exploratory Parsing",
+      "text": "Recent advances in parsing combine context and backtracking into a single language. We use both attributes to explore semi-structured texts by supporting parser generation with experiment management and continuous visualization of partial results."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Parse Plugin",
+        "story": []
+      },
+      "date": 1389662506707
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "12e3df786e6de733"
+      },
+      "id": "12e3df786e6de733",
+      "type": "add",
+      "date": 1389662508669
+    },
+    {
+      "type": "edit",
+      "id": "12e3df786e6de733",
+      "item": {
+        "type": "paragraph",
+        "id": "12e3df786e6de733",
+        "text": "The Parse plugin creates and supervises long running batch jobs. This work in progress explores how this interaction might progress. A websocket connection is established to the server but no parse job is yet started."
+      },
+      "date": 1389662623838
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "parse",
+        "id": "7715f521b76d9a9b",
+        "text": "grammar: 35 productions\ndataset: 13.56 Gb\n"
+      },
+      "after": "12e3df786e6de733",
+      "id": "7715f521b76d9a9b",
+      "date": 1389662633129
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6f72d9758c3aaba4"
+      },
+      "id": "6f72d9758c3aaba4",
+      "type": "add",
+      "after": "7715f521b76d9a9b",
+      "date": 1389662812434
+    }
+  ]
+}
