@@ -12,6 +12,14 @@
       "text": "grammar: 35 productions\ndataset: 13.56 Gb\n"
     },
     {
+      "type": "parse",
+      "id": "4a4f1138374ad45f",
+      "text": "grammar: 35 productions\ndataset: 13.56 Gb\n",
+      "state": "running",
+      "parsed": 5701294,
+      "server": "opened"
+    },
+    {
       "type": "reference",
       "id": "6f72d9758c3aaba4",
       "site": "lab.fed.wiki.org",
@@ -68,6 +76,21 @@
       "type": "add",
       "after": "7715f521b76d9a9b",
       "date": 1389662812434
+    },
+    {
+      "item": {
+        "type": "parse",
+        "id": "4a4f1138374ad45f",
+        "text": "grammar: 35 productions\ndataset: 13.56 Gb\n",
+        "state": "running",
+        "parsed": 5701294,
+        "server": "opened"
+      },
+      "id": "4a4f1138374ad45f",
+      "type": "add",
+      "after": "7715f521b76d9a9b",
+      "date": 1418362711612
     }
-  ]
+  ],
+  "plugin": "parse"
 }
