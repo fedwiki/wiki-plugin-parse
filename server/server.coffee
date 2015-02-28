@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Parse Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-parse/blob/master/LICENSE.txt
+###
+
 # parse semi-structured text under client-side control
 
 WebSocketServer = require('ws').Server
@@ -40,4 +47,3 @@ startServer = (params) ->
 			tick()
 
 module.exports = {startServer}
-

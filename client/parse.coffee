@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Parse Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-parse/blob/master/LICENSE.txt
+###
+
 nextOp = (state) ->
   switch state
     when undefined then "Start"
